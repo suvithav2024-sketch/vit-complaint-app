@@ -1,0 +1,387 @@
+/* ==========================================================
+   SMART VIT - Student Complaint Management System
+   "Raise. Track. Resolve."
+   VIT-Inspired Academic Theme & Modern Responsive Styles
+   ========================================================== */
+
+:root {
+    --vit-navy: #002147;
+    --vit-blue: #0b3c75;
+    --vit-accent: #2563eb;
+    --vit-gold: #f59e0b;
+    --vit-gold-dark: #d97706;
+    --vit-bg-light: #f8fafc;
+    --vit-surface: #ffffff;
+    --vit-border: #e2e8f0;
+    --vit-text: #1e293b;
+    --vit-muted: #64748b;
+    --vit-danger: #dc2626;
+    --vit-success: #16a34a;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    background-color: var(--vit-bg-light);
+    color: var(--vit-text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--vit-navy);
+}
+
+/* VIT Brand Navbar */
+.vit-navbar {
+    background: linear-gradient(135deg, var(--vit-navy) 0%, var(--vit-blue) 100%);
+    box-shadow: 0 4px 12px rgba(0, 33, 71, 0.15);
+    border-bottom: 3px solid var(--vit-gold);
+    padding: 0.75rem 1.5rem;
+}
+
+.vit-navbar .navbar-brand {
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.vit-navbar .navbar-brand span.badge-vit {
+    background-color: var(--vit-gold);
+    color: var(--vit-navy);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.vit-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.vit-navbar .nav-link:hover, .vit-navbar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #ffffff !important;
+}
+
+/* Notification Bell */
+.notif-bell-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.notif-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: var(--vit-danger);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 0.2rem 0.4rem;
+    border-radius: 50rem;
+    border: 2px solid var(--vit-navy);
+}
+
+/* Layout Wrappers */
+.main-content {
+    flex: 1;
+    padding: 2rem 0;
+}
+
+/* Sidebar for Dashboards */
+.dashboard-sidebar {
+    background: var(--vit-surface);
+    border: 1px solid var(--vit-border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.dashboard-sidebar .user-info-card {
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid var(--vit-border);
+}
+
+.sidebar-nav .nav-item {
+    margin-bottom: 0.35rem;
+}
+
+.sidebar-nav .nav-link {
+    color: var(--vit-text);
+    font-weight: 500;
+    padding: 0.65rem 0.9rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    transition: all 0.2s ease;
+}
+
+.sidebar-nav .nav-link:hover {
+    background-color: #f1f5f9;
+    color: var(--vit-accent);
+}
+
+.sidebar-nav .nav-link.active {
+    background-color: var(--vit-navy);
+    color: #ffffff;
+}
+
+/* Cards & Widgets */
+.vit-card {
+    background: var(--vit-surface);
+    border: 1px solid var(--vit-border);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+
+.vit-card:hover {
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.vit-card-header {
+    background-color: transparent;
+    border-bottom: 1px solid var(--vit-border);
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.stat-card {
+    border-left: 4px solid var(--vit-accent);
+    padding: 1.25rem;
+}
+
+.stat-card.stat-primary { border-left-color: var(--vit-accent); }
+.stat-card.stat-warning { border-left-color: var(--vit-gold-dark); }
+.stat-card.stat-success { border-left-color: var(--vit-success); }
+.stat-card.stat-danger { border-left-color: var(--vit-danger); }
+
+.stat-card .stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--vit-navy);
+    line-height: 1.1;
+}
+
+.stat-card .stat-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--vit-muted);
+}
+
+/* Buttons */
+.btn-vit-primary {
+    background-color: var(--vit-navy);
+    border-color: var(--vit-navy);
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.btn-vit-primary:hover {
+    background-color: var(--vit-blue);
+    border-color: var(--vit-blue);
+    color: #ffffff;
+}
+
+.btn-vit-gold {
+    background-color: var(--vit-gold);
+    border-color: var(--vit-gold-dark);
+    color: var(--vit-navy);
+    font-weight: 600;
+}
+
+.btn-vit-gold:hover {
+    background-color: var(--vit-gold-dark);
+    color: #ffffff;
+}
+
+/* Status Badges */
+.badge-status {
+    font-weight: 600;
+    padding: 0.35rem 0.65rem;
+    border-radius: 50rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.badge-priority {
+    font-weight: 600;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+}
+
+/* Visual Complaint Timeline */
+.timeline-container {
+    position: relative;
+    padding-left: 2rem;
+    margin: 1.5rem 0;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 5px;
+    bottom: 5px;
+    width: 2px;
+    background-color: #cbd5e1;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 1.75rem;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-point {
+    position: absolute;
+    left: -2rem;
+    top: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 3px solid var(--vit-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-item.completed .timeline-point {
+    background-color: var(--vit-success);
+    border-color: var(--vit-success);
+    color: #ffffff;
+}
+
+.timeline-item.active .timeline-point {
+    background-color: var(--vit-gold);
+    border-color: var(--vit-gold-dark);
+    box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.2);
+}
+
+.timeline-content {
+    background: #f8fafc;
+    border: 1px solid var(--vit-border);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+}
+
+/* Tables */
+.table-vit {
+    background-color: #ffffff;
+}
+
+.table-vit th {
+    background-color: #f1f5f9;
+    color: var(--vit-navy);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-top: none;
+}
+
+/* Star Rating Widget */
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 0.3rem;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 1.8rem;
+    color: #cbd5e1;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: var(--vit-gold);
+}
+
+/* Hero Section */
+.vit-hero {
+    background: linear-gradient(135deg, var(--vit-navy) 0%, #00152e 100%);
+    color: #ffffff;
+    padding: 4rem 1rem;
+    border-bottom: 4px solid var(--vit-gold);
+    position: relative;
+}
+
+.vit-hero::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: radial-gradient(circle at 80% 20%, rgba(245, 158, 11, 0.15) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+/* Footer */
+.vit-footer {
+    background-color: var(--vit-navy);
+    color: #94a3b8;
+    padding: 2.5rem 0 1.5rem;
+    border-top: 3px solid var(--vit-gold);
+    font-size: 0.9rem;
+}
+
+.vit-footer a {
+    color: #cbd5e1;
+    text-decoration: none;
+}
+
+.vit-footer a:hover {
+    color: var(--vit-gold);
+}
+
+/* Responsive Mobile Rules */
+@media (max-width: 768px) {
+    .dashboard-sidebar {
+        margin-bottom: 1.5rem;
+    }
+    .vit-hero {
+        padding: 2.5rem 1rem;
+        text-align: center;
+    }
+    .stat-card .stat-number {
+        font-size: 1.6rem;
+    }
+    .table-responsive {
+        border-radius: 8px;
+        border: 1px solid var(--vit-border);
+    }
+}

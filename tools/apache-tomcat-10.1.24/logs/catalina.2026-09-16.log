@@ -1,0 +1,187 @@
+16-Sep-2026 21:11:23.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+16-Sep-2026 21:11:23.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+16-Sep-2026 21:11:23.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+16-Sep-2026 21:11:23.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-Sep-2026 21:11:23.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Sep-2026 21:11:23.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2026 21:11:23.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot
+16-Sep-2026 21:11:23.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-LTS
+16-Sep-2026 21:11:23.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+16-Sep-2026 21:11:23.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+16-Sep-2026 21:11:23.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+16-Sep-2026 21:11:23.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=c:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\conf\logging.properties
+16-Sep-2026 21:11:23.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2026 21:11:23.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2026 21:11:23.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2026 21:11:23.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2026 21:11:23.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Sep-2026 21:11:23.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Sep-2026 21:11:23.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Sep-2026 21:11:23.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2026 21:11:23.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=c:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+16-Sep-2026 21:11:23.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=c:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+16-Sep-2026 21:11:23.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=c:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\temp
+16-Sep-2026 21:11:23.192 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+16-Sep-2026 21:11:23.216 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+16-Sep-2026 21:11:23.510 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2026 21:11:23.545 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [668] milliseconds
+16-Sep-2026 21:11:23.629 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2026 21:11:23.629 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+16-Sep-2026 21:11:23.675 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war]
+16-Sep-2026 21:11:25.973 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2026 21:11:26.151 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war] has finished in [2,476] ms
+16-Sep-2026 21:11:26.154 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war]
+16-Sep-2026 21:11:27.632 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2026 21:11:27.693 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war] has finished in [1,540] ms
+16-Sep-2026 21:11:27.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\docs]
+16-Sep-2026 21:11:27.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\docs] has finished in [50] ms
+16-Sep-2026 21:11:27.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\examples]
+16-Sep-2026 21:11:28.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\examples] has finished in [624] ms
+16-Sep-2026 21:11:28.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\host-manager]
+16-Sep-2026 21:11:28.465 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\host-manager] has finished in [88] ms
+16-Sep-2026 21:11:28.465 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\manager]
+16-Sep-2026 21:11:28.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\manager] has finished in [72] ms
+16-Sep-2026 21:11:28.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2026 21:11:28.612 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5066] milliseconds
+16-Sep-2026 21:12:38.016 INFO [http-nio-8080-exec-6] com.smartvit.util.DBConnection.loadConfiguration DBConnection initialized successfully for: jdbc:mysql://localhost:3306/smart_vit_complaints?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=UTF-8
+16-Sep-2026 21:14:49.056 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Sep-2026 21:14:49.096 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Sep-2026 21:14:49.100 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:14:49.212 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Smartvit]
+16-Sep-2026 21:14:49.374 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war]
+16-Sep-2026 21:14:49.804 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:14:51.059 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2026 21:14:51.117 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war] has finished in [1,743] ms
+16-Sep-2026 21:14:51.120 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war]
+16-Sep-2026 21:14:52.748 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2026 21:14:52.792 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war] has finished in [1,668] ms
+16-Sep-2026 21:14:56.049 INFO [http-nio-8080-exec-3] com.smartvit.util.DBConnection.loadConfiguration DBConnection initialized successfully for: jdbc:mysql://localhost:3306/smart_vit_complaints?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=UTF-8
+16-Sep-2026 21:15:43.412 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Sep-2026 21:15:43.419 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Sep-2026 21:15:43.420 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:15:43.477 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war]
+16-Sep-2026 21:15:44.064 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:15:44.065 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:15:44.065 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:15:44.065 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:15:44.065 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:15:45.584 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2026 21:15:45.631 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war] has finished in [2,154] ms
+16-Sep-2026 21:15:54.457 INFO [http-nio-8080-exec-4] com.smartvit.util.DBConnection.loadConfiguration DBConnection initialized successfully for: jdbc:mysql://localhost:3306/smart_vit_complaints?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=UTF-8
+16-Sep-2026 21:15:55.638 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Smartvit]
+16-Sep-2026 21:15:55.659 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Smartvit] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.base@17.0.20.1/java.io.FileSystem.hasBooleanAttributes(FileSystem.java:125)
+ java.base@17.0.20.1/java.io.File.isFile(File.java:898)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:69)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:94)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:272)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:105)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:96)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:211)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:220)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:862)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:971)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:15:55.732 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war]
+16-Sep-2026 21:15:57.417 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2026 21:15:57.463 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war] has finished in [1,731] ms
+16-Sep-2026 21:16:00.663 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:17:17.629 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+16-Sep-2026 21:17:17.640 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Sep-2026 21:17:17.641 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:17:17.672 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+16-Sep-2026 21:17:17.719 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Smartvit]
+16-Sep-2026 21:17:17.998 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war]
+16-Sep-2026 21:17:21.110 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2026 21:17:21.181 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war] has finished in [3,182] ms
+16-Sep-2026 21:17:21.184 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war]
+16-Sep-2026 21:17:24.200 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2026 21:17:24.264 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war] has finished in [3,079] ms
+16-Sep-2026 21:17:30.438 INFO [http-nio-8080-exec-18] com.smartvit.util.DBConnection.loadConfiguration DBConnection initialized successfully for: jdbc:mysql://localhost:3306/smart_vit_complaints?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=UTF-8

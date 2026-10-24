@@ -1,0 +1,11 @@
+target/
+mariadb_data/
+.idea/
+*.log
+.env
+target/
+mariadb_data/
+tools/apache-tomcat-10.1.24/
+tools/apache-maven-3.9.6/
+.env
+*.log

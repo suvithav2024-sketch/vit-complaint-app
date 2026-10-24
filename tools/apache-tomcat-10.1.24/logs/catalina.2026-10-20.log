@@ -1,0 +1,1049 @@
+20-Oct-2026 12:53:46.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+20-Oct-2026 12:53:46.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+20-Oct-2026 12:53:46.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+20-Oct-2026 12:53:46.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Oct-2026 12:53:46.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Oct-2026 12:53:46.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Oct-2026 12:53:46.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot
+20-Oct-2026 12:53:46.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-LTS
+20-Oct-2026 12:53:46.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+20-Oct-2026 12:53:46.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+20-Oct-2026 12:53:46.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+20-Oct-2026 12:53:46.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\conf\logging.properties
+20-Oct-2026 12:53:46.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 12:53:46.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Oct-2026 12:53:46.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Oct-2026 12:53:46.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 12:53:46.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 12:53:46.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 12:53:46.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 12:53:46.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 12:53:46.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+20-Oct-2026 12:53:46.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+20-Oct-2026 12:53:46.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\temp
+20-Oct-2026 12:53:46.448 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+20-Oct-2026 12:53:46.453 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+20-Oct-2026 12:53:46.688 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 12:53:46.721 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [497] milliseconds
+20-Oct-2026 12:53:46.798 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Oct-2026 12:53:46.798 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+20-Oct-2026 12:53:46.830 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war]
+20-Oct-2026 12:53:49.100 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Oct-2026 12:53:49.171 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Initializing web application context & starting background SLA threads...
+20-Oct-2026 12:53:49.179 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Background SLA Monitoring Thread scheduled successfully.
+20-Oct-2026 12:53:49.256 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war] has finished in [2,426] ms
+20-Oct-2026 12:53:49.260 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war]
+20-Oct-2026 12:53:51.118 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Oct-2026 12:53:51.154 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Initializing web application context & starting background SLA threads...
+20-Oct-2026 12:53:51.157 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Background SLA Monitoring Thread scheduled successfully.
+20-Oct-2026 12:53:51.164 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war] has finished in [1,904] ms
+20-Oct-2026 12:53:51.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\docs]
+20-Oct-2026 12:53:51.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\docs] has finished in [38] ms
+20-Oct-2026 12:53:51.205 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\examples]
+20-Oct-2026 12:53:51.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\examples] has finished in [499] ms
+20-Oct-2026 12:53:51.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\host-manager]
+20-Oct-2026 12:53:51.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\host-manager] has finished in [59] ms
+20-Oct-2026 12:53:51.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\manager]
+20-Oct-2026 12:53:51.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\manager] has finished in [39] ms
+20-Oct-2026 12:53:51.827 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 12:53:51.896 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5175] milliseconds
+20-Oct-2026 12:53:59.201 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.run [SLA Monitoring Thread] SLA Monitor Worker Started. Checking every 60 seconds.
+20-Oct-2026 12:53:59.203 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:53:59.281 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.util.DBConnection.loadConfiguration DBConnection initialized successfully for: jdbc:mysql://localhost:3306/smart_vit_complaints?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=UTF-8
+20-Oct-2026 12:53:59.803 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:54:01.158 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.run [SLA Monitoring Thread] SLA Monitor Worker Started. Checking every 60 seconds.
+20-Oct-2026 12:54:01.159 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:54:01.190 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.util.DBConnection.loadConfiguration DBConnection initialized successfully for: jdbc:mysql://localhost:3306/smart_vit_complaints?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=UTF-8
+20-Oct-2026 12:54:01.483 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:54:59.816 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:54:59.901 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:55:01.494 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:55:01.578 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:55:59.906 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:55:59.977 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:56:01.583 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:56:01.651 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:56:59.985 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:57:00.042 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:57:01.660 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:57:01.725 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:58:00.048 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:58:00.094 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:58:01.728 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:58:01.788 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:59:00.105 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:59:00.151 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 12:59:01.795 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 12:59:01.858 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:00:00.158 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:00:00.195 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:00:01.873 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:00:01.900 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:01:00.206 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:01:00.251 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:01:01.917 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:01:01.966 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:02:00.260 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:02:00.323 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:02:01.968 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:02:01.995 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:03:00.332 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:03:00.397 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:03:02.009 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:03:02.081 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:04:00.404 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:04:00.462 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:04:02.085 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:04:02.121 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:05:00.476 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:05:00.537 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:05:02.123 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:05:02.180 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:06:00.540 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:06:00.606 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:06:02.191 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:06:02.236 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:07:00.615 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:07:00.674 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:07:02.241 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:07:02.297 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:08:00.681 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:08:00.726 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:08:02.302 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:08:02.360 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:09:00.740 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:09:00.804 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:09:02.371 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:09:02.411 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:10:00.812 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:10:00.885 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:10:02.416 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:10:02.486 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:11:00.897 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:11:00.938 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:11:02.489 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:11:02.552 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:12:00.948 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:12:00.993 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:12:02.568 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:12:02.625 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:13:01.001 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:13:01.074 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:13:02.628 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:13:02.657 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:14:01.075 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:14:01.134 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:14:02.667 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:14:02.717 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:15:01.150 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:15:01.205 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:15:02.728 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:15:02.792 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:16:01.214 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:16:01.238 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:16:02.800 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:16:02.857 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:17:01.246 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:17:01.312 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:17:02.859 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:17:02.920 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:18:01.325 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:18:01.389 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:18:02.925 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:18:02.990 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:19:01.397 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:19:01.438 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:19:03.023 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:19:03.062 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:20:01.454 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:20:01.484 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:20:03.083 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:20:03.144 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:21:01.494 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:21:01.526 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:21:03.147 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:21:03.208 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:22:01.533 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:22:01.570 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:22:03.214 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:22:03.270 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:23:01.583 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:23:01.653 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:23:03.273 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:23:03.331 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:24:01.662 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:24:01.699 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:24:03.337 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:24:03.403 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:25:01.712 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:25:01.776 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:25:03.414 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:25:03.468 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:26:01.788 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:26:01.829 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:26:03.475 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:26:03.533 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:27:01.846 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:27:01.895 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:27:03.538 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:27:03.564 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:28:01.923 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:28:01.955 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:28:03.575 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:28:03.624 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:29:01.962 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:29:02.030 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:29:03.636 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:29:03.668 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:30:02.039 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:30:02.102 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:30:03.684 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:30:03.748 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:31:02.114 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:31:02.177 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:31:03.751 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:31:03.792 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:32:02.191 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:32:02.247 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:32:03.797 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:32:03.858 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:33:02.262 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:33:02.311 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:33:03.872 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:33:03.902 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:34:02.320 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:34:02.355 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:34:03.906 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:34:03.930 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:35:02.368 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:35:02.420 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:35:03.945 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:35:03.995 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:35:20.103 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Smartvit]
+20-Oct-2026 13:35:20.116 INFO [Catalina-utility-2] com.smartvit.thread.SlaContextListener.contextDestroyed [Smart VIT Lifecycle] Shutting down web application context & background threads...
+20-Oct-2026 13:35:20.117 INFO [Catalina-utility-2] com.smartvit.thread.SlaContextListener.contextDestroyed [Smart VIT Lifecycle] Background threads stopped cleanly.
+20-Oct-2026 13:35:20.119 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.run [SLA Monitoring Thread] SLA Monitor thread interrupted, stopping worker loop.
+20-Oct-2026 13:35:20.120 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.run [SLA Monitoring Thread] SLA Monitor Worker stopped cleanly.
+20-Oct-2026 13:35:20.134 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Smartvit] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-Oct-2026 13:35:20.136 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Smartvit] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.20.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.20.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.20.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.20.1/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:20.316 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war]
+20-Oct-2026 13:35:21.475 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.475 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.476 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.476 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.476 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.477 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.477 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.477 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.478 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.478 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.478 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.479 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.479 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.479 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.480 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.480 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.480 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.481 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.481 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.481 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.482 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.482 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.483 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.483 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.483 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.484 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.484 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.484 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.485 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.485 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.486 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.486 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.486 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.487 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.487 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.487 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.488 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.488 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.488 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.489 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.489 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.489 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.490 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:21.490 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:950)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+20-Oct-2026 13:35:25.083 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Oct-2026 13:35:25.147 INFO [Catalina-utility-2] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Initializing web application context & starting background SLA threads...
+20-Oct-2026 13:35:25.150 INFO [Catalina-utility-2] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Background SLA Monitoring Thread scheduled successfully.
+20-Oct-2026 13:35:25.160 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war] has finished in [4,843] ms
+20-Oct-2026 13:35:35.165 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.run [SLA Monitoring Thread] SLA Monitor Worker Started. Checking every 60 seconds.
+20-Oct-2026 13:35:35.166 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:35:35.223 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.util.DBConnection.loadConfiguration DBConnection initialized successfully for: jdbc:mysql://localhost:3306/smart_vit_complaints?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=UTF-8
+20-Oct-2026 13:35:35.878 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:36:02.436 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:36:02.479 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:36:05.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+20-Oct-2026 13:36:05.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+20-Oct-2026 13:36:05.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+20-Oct-2026 13:36:05.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Oct-2026 13:36:05.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Oct-2026 13:36:05.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Oct-2026 13:36:05.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot
+20-Oct-2026 13:36:05.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-LTS
+20-Oct-2026 13:36:05.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+20-Oct-2026 13:36:05.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+20-Oct-2026 13:36:05.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+20-Oct-2026 13:36:05.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\conf\logging.properties
+20-Oct-2026 13:36:05.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 13:36:05.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Oct-2026 13:36:05.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Oct-2026 13:36:05.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 13:36:05.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 13:36:05.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 13:36:05.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 13:36:05.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 13:36:05.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+20-Oct-2026 13:36:05.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+20-Oct-2026 13:36:05.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\temp
+20-Oct-2026 13:36:05.850 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+20-Oct-2026 13:36:05.855 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+20-Oct-2026 13:36:06.124 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 13:36:06.148 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:961)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1286)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1299)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1014)
+		... 13 more
+20-Oct-2026 13:36:06.149 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [522] milliseconds
+20-Oct-2026 13:36:06.224 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Oct-2026 13:36:06.224 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+20-Oct-2026 13:36:06.254 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war]
+20-Oct-2026 13:36:08.571 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Oct-2026 13:36:08.642 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Initializing web application context & starting background SLA threads...
+20-Oct-2026 13:36:08.650 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Background SLA Monitoring Thread scheduled successfully.
+20-Oct-2026 13:36:08.727 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war] has finished in [2,472] ms
+20-Oct-2026 13:36:08.729 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war]
+20-Oct-2026 13:36:10.011 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Oct-2026 13:36:10.049 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Initializing web application context & starting background SLA threads...
+20-Oct-2026 13:36:10.051 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Background SLA Monitoring Thread scheduled successfully.
+20-Oct-2026 13:36:10.059 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war] has finished in [1,328] ms
+20-Oct-2026 13:36:10.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\docs]
+20-Oct-2026 13:36:10.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\docs] has finished in [40] ms
+20-Oct-2026 13:36:10.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\examples]
+20-Oct-2026 13:36:10.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\examples] has finished in [421] ms
+20-Oct-2026 13:36:10.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\host-manager]
+20-Oct-2026 13:36:10.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\host-manager] has finished in [50] ms
+20-Oct-2026 13:36:10.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\manager]
+20-Oct-2026 13:36:10.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\manager] has finished in [37] ms
+20-Oct-2026 13:36:10.618 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4468] milliseconds
+20-Oct-2026 13:36:10.627 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:567)
+		at java.base/sun.nio.ch.Net.bind(Net.java:556)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+20-Oct-2026 13:36:10.627 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 13:36:10.627 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Oct-2026 13:36:10.629 INFO [main] com.smartvit.thread.SlaContextListener.contextDestroyed [Smart VIT Lifecycle] Shutting down web application context & background threads...
+20-Oct-2026 13:36:10.630 INFO [main] com.smartvit.thread.SlaContextListener.contextDestroyed [Smart VIT Lifecycle] Background threads stopped cleanly.
+20-Oct-2026 13:36:10.646 INFO [main] com.smartvit.thread.SlaContextListener.contextDestroyed [Smart VIT Lifecycle] Shutting down web application context & background threads...
+20-Oct-2026 13:36:10.646 INFO [main] com.smartvit.thread.SlaContextListener.contextDestroyed [Smart VIT Lifecycle] Background threads stopped cleanly.
+20-Oct-2026 13:36:10.655 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 13:36:10.657 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 13:36:35.893 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:36:35.954 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:37:02.494 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:37:02.556 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 6 overdue complaints.
+20-Oct-2026 13:37:20.361 INFO [pool-2-thread-1] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Processing notification for User ID 11
+20-Oct-2026 13:37:20.485 INFO [pool-2-thread-1] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Notification successfully delivered to User ID 11
+20-Oct-2026 13:37:35.959 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:37:36.000 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 5 overdue complaints.
+20-Oct-2026 13:38:02.559 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:38:02.609 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 5 overdue complaints.
+20-Oct-2026 13:38:36.016 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:38:36.071 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 5 overdue complaints.
+20-Oct-2026 13:39:02.613 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:39:02.672 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 5 overdue complaints.
+20-Oct-2026 13:39:36.083 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:39:36.127 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 5 overdue complaints.
+20-Oct-2026 13:40:02.684 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:40:02.728 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 5 overdue complaints.
+20-Oct-2026 13:40:32.278 INFO [pool-2-thread-2] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Processing notification for User ID 10
+20-Oct-2026 13:40:32.396 INFO [pool-2-thread-2] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Notification successfully delivered to User ID 10
+20-Oct-2026 13:40:36.133 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:40:36.188 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 13:41:02.743 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:41:02.784 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 13:41:03.184 INFO [pool-2-thread-3] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Processing notification for User ID 11
+20-Oct-2026 13:41:03.302 INFO [pool-2-thread-3] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Notification successfully delivered to User ID 11
+20-Oct-2026 13:41:36.197 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:41:36.220 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 13:42:02.800 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 13:42:02.838 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:05:46.784 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:05:46.801 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:06:12.063 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:06:12.080 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:06:45.460 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:06:45.476 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:07:12.082 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:07:12.123 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:07:45.490 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:07:45.534 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:08:12.132 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:08:12.162 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:08:45.543 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:08:45.587 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:09:12.167 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:09:12.207 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:09:45.588 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:09:45.632 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:10:12.215 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:10:12.254 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:10:45.645 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:10:45.673 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:11:12.265 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:11:12.297 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:11:45.674 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:11:45.708 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:12:12.302 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:12:12.349 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:12:45.714 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:12:45.746 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:13:12.353 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:13:12.381 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:13:45.761 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:13:45.793 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:14:12.382 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:14:12.430 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:14:45.796 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:14:45.841 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:15:12.441 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:15:12.482 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:15:45.845 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:15:45.886 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:16:12.486 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:16:12.518 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:16:45.899 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:16:45.941 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:17:12.525 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:17:12.560 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:17:45.952 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:17:45.988 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:18:12.574 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:18:12.610 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:18:45.998 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:18:46.032 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:19:12.620 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:19:12.660 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:19:46.042 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:19:46.080 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:20:12.667 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:20:12.700 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:20:46.087 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:20:46.127 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:21:12.711 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:21:12.742 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:21:46.139 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:21:46.184 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:22:12.758 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:22:12.799 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:22:46.191 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:22:46.225 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:23:12.801 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:23:12.849 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:23:46.237 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:23:46.264 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:24:12.860 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:24:12.901 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:24:46.279 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:24:46.295 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:25:12.908 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:25:12.947 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:25:46.307 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:25:46.326 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:26:12.949 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:26:12.993 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:26:46.340 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:26:46.357 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:27:12.999 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:27:13.031 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:27:46.372 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:27:46.397 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:28:13.033 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:28:13.082 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:28:46.402 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:28:46.442 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:29:13.098 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:29:13.149 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:29:46.452 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:29:46.491 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:30:13.155 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:30:13.198 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:30:46.504 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:30:46.549 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:31:13.211 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:31:13.261 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:31:46.556 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:31:46.597 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:32:13.277 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:32:13.310 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:32:46.613 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:32:46.660 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:33:13.318 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:33:13.356 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:33:46.663 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:33:46.706 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:34:13.362 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:34:13.401 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:34:46.712 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:34:46.750 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:35:13.414 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:35:13.433 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:35:46.765 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:35:46.802 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:36:13.445 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:36:13.483 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:36:46.808 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:36:46.843 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:37:13.498 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:37:13.528 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:37:46.850 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:37:46.893 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:38:13.540 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:38:13.585 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:38:46.904 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:38:46.948 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:39:13.598 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:39:13.639 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:39:46.960 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:39:46.992 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:40:13.641 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:40:13.687 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:40:47.007 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:40:47.045 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:41:13.696 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:41:13.742 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:41:47.050 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:41:47.092 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:42:13.758 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:42:13.797 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:42:47.102 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:42:47.134 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:43:13.811 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:43:13.857 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:43:47.136 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:43:47.157 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:44:13.864 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:44:13.900 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:44:47.159 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:44:47.200 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:45:13.904 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:45:13.944 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:45:47.212 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:45:47.250 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:46:13.947 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:46:13.990 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:46:47.255 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:46:47.293 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:47:14.004 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:47:14.047 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:47:47.302 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:47:47.340 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:48:14.051 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:48:14.088 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:48:47.344 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:48:47.380 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:49:14.089 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:49:14.122 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:49:47.387 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:49:47.424 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:50:14.133 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:50:14.171 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:50:47.430 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:50:47.482 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:51:14.180 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:51:14.218 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:51:47.484 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:51:47.533 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:52:14.228 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:52:14.272 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:52:47.549 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:52:47.588 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:53:14.286 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:53:14.316 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:53:47.599 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:53:47.625 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:54:14.320 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:54:14.366 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:54:47.637 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:54:47.676 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:55:14.370 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:55:14.414 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:55:47.683 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:55:47.731 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:56:14.416 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:56:14.441 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:56:47.740 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:56:47.778 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:57:14.449 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:57:14.466 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:57:47.788 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:57:47.830 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:58:14.472 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:58:14.490 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:58:47.843 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:58:47.879 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:59:14.490 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:59:14.509 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 14:59:47.893 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 14:59:47.931 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:00:14.522 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:00:14.563 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:00:47.934 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:00:47.972 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:01:14.572 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:01:14.611 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:01:47.979 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:01:48.010 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:02:14.621 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:02:14.643 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:02:48.023 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:02:48.049 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:03:14.654 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:03:14.690 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:03:48.052 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:03:48.091 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:04:14.697 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:04:14.735 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:04:48.093 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:04:48.133 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:05:14.740 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:05:14.783 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:05:48.140 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:05:48.178 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:06:14.798 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:06:14.847 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:06:48.190 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:06:48.223 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:07:14.850 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:07:14.890 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:07:48.237 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:07:48.261 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:08:14.900 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:08:14.947 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:08:48.273 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:08:48.319 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:09:14.952 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:09:14.998 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:09:48.334 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:09:48.378 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:10:15.009 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:10:15.055 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:10:48.387 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:10:48.430 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:11:15.061 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:11:15.104 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:11:48.437 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:11:48.477 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:12:15.109 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:12:15.154 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:12:48.486 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:12:48.537 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:13:15.167 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:13:15.194 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:13:48.549 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:13:48.580 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.
+20-Oct-2026 15:14:15.208 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+20-Oct-2026 15:14:15.250 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 4 overdue complaints.

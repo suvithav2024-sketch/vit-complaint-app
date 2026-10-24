@@ -1,0 +1,126 @@
+05-Oct-2026 19:02:16.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+05-Oct-2026 19:02:16.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+05-Oct-2026 19:02:16.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+05-Oct-2026 19:02:16.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Oct-2026 19:02:16.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Oct-2026 19:02:16.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Oct-2026 19:02:16.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot
+05-Oct-2026 19:02:16.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-LTS
+05-Oct-2026 19:02:16.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+05-Oct-2026 19:02:16.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+05-Oct-2026 19:02:16.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+05-Oct-2026 19:02:16.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\conf\logging.properties
+05-Oct-2026 19:02:16.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Oct-2026 19:02:16.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Oct-2026 19:02:16.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Oct-2026 19:02:16.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Oct-2026 19:02:16.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Oct-2026 19:02:16.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Oct-2026 19:02:16.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Oct-2026 19:02:16.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Oct-2026 19:02:16.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+05-Oct-2026 19:02:16.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+05-Oct-2026 19:02:16.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\temp
+05-Oct-2026 19:02:16.923 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+05-Oct-2026 19:02:16.951 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+05-Oct-2026 19:02:17.228 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Oct-2026 19:02:17.265 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [614] milliseconds
+05-Oct-2026 19:07:14.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+05-Oct-2026 19:07:14.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+05-Oct-2026 19:07:14.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+05-Oct-2026 19:07:14.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Oct-2026 19:07:14.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Oct-2026 19:07:14.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Oct-2026 19:07:14.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot
+05-Oct-2026 19:07:14.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.20.1+1-LTS
+05-Oct-2026 19:07:14.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+05-Oct-2026 19:07:14.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+05-Oct-2026 19:07:14.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+05-Oct-2026 19:07:14.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\conf\logging.properties
+05-Oct-2026 19:07:14.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Oct-2026 19:07:14.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Oct-2026 19:07:14.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Oct-2026 19:07:14.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Oct-2026 19:07:14.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Oct-2026 19:07:14.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Oct-2026 19:07:14.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Oct-2026 19:07:14.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Oct-2026 19:07:14.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+05-Oct-2026 19:07:14.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24
+05-Oct-2026 19:07:14.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\temp
+05-Oct-2026 19:07:14.743 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+05-Oct-2026 19:07:14.790 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+05-Oct-2026 19:07:15.039 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Oct-2026 19:07:15.070 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [573] milliseconds
+05-Oct-2026 19:07:15.136 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Oct-2026 19:07:15.136 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+05-Oct-2026 19:07:15.172 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war]
+05-Oct-2026 19:07:16.703 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Oct-2026 19:07:16.816 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\ROOT.war] has finished in [1,644] ms
+05-Oct-2026 19:07:16.817 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war]
+05-Oct-2026 19:07:16.823 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit] was found with a last modified time that did not match the associated WAR. It will be deleted.
+05-Oct-2026 19:07:19.177 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Oct-2026 19:07:19.214 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Initializing web application context & starting background SLA threads...
+05-Oct-2026 19:07:19.221 INFO [main] com.smartvit.thread.SlaContextListener.contextInitialized [Smart VIT Lifecycle] Background SLA Monitoring Thread scheduled successfully.
+05-Oct-2026 19:07:19.227 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\Smartvit.war] has finished in [2,410] ms
+05-Oct-2026 19:07:19.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\docs]
+05-Oct-2026 19:07:19.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\docs] has finished in [44] ms
+05-Oct-2026 19:07:19.273 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\examples]
+05-Oct-2026 19:07:19.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\examples] has finished in [481] ms
+05-Oct-2026 19:07:19.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\host-manager]
+05-Oct-2026 19:07:19.805 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\host-manager] has finished in [49] ms
+05-Oct-2026 19:07:19.805 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\manager]
+05-Oct-2026 19:07:19.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\DELL\Desktop\Smartvit\tools\apache-tomcat-10.1.24\webapps\manager] has finished in [47] ms
+05-Oct-2026 19:07:19.857 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Oct-2026 19:07:19.915 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4845] milliseconds
+05-Oct-2026 19:07:29.238 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.run [SLA Monitoring Thread] SLA Monitor Worker Started. Checking every 60 seconds.
+05-Oct-2026 19:07:29.240 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:07:29.317 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.util.DBConnection.loadConfiguration DBConnection initialized successfully for: jdbc:mysql://localhost:3306/smart_vit_complaints?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=UTF-8
+05-Oct-2026 19:07:29.673 WARNING [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Breach Warning: 1 complaints marked OVERDUE.
+05-Oct-2026 19:07:29.722 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:08:29.728 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:08:29.781 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:09:29.796 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:09:29.842 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:10:29.849 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:10:29.877 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:11:29.881 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:11:29.922 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:12:29.927 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:12:29.961 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:13:29.969 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:13:29.989 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:13:46.563 INFO [pool-1-thread-1] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Processing notification for User ID 10
+05-Oct-2026 19:13:46.566 INFO [pool-1-thread-2] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Processing notification for User ID 8
+05-Oct-2026 19:13:46.677 INFO [pool-1-thread-2] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Notification successfully delivered to User ID 8
+05-Oct-2026 19:13:46.677 INFO [pool-1-thread-1] com.smartvit.thread.NotificationProcessorTask.run [Async Notification Thread] Notification successfully delivered to User ID 10
+05-Oct-2026 19:14:30.010 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:14:30.050 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:15:30.060 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:15:30.093 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:16:30.098 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:16:30.119 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:17:30.125 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:17:30.144 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:18:30.148 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:18:30.179 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:19:30.192 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:19:30.224 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:20:30.231 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:20:30.262 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:21:30.273 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:21:30.303 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:22:30.320 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:22:30.353 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:23:30.358 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:23:30.388 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:24:30.401 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:24:30.432 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:25:30.442 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:25:30.473 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:26:30.484 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:26:30.519 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:27:30.523 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:27:30.555 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
+05-Oct-2026 19:28:30.560 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] Running background SLA audit...
+05-Oct-2026 19:28:30.617 INFO [SmartVIT-SLA-Monitor-Thread] com.smartvit.thread.SlaMonitoringThread.performSlaCheck [SLA Monitoring Thread] SLA Audit completed. Checked 1 overdue complaints.
